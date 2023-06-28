@@ -1,0 +1,135 @@
+
+
+
+/* стили основного контейнера слайдера */
+.pedenus-slaidera {
+  position: relative;
+  overflow: hidden;
+  max-width: 750px;
+  max-height: 350px;
+  /* max-height: 20%; */
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: gray;
+  margin-bottom: 10px; */
+  
+  }
+
+  /* стили для обёртки, в которой заключены слайды */
+  .sended-nesunam {
+  position: relative;
+  overflow: hidden;
+  }
+
+  /* стили для контейнера слайдов */
+  .design-mansecus {
+  display: flex;
+  transition: transform 0.6s ease;
+  }
+
+  /* стили для слайдов */
+  .design-mansecu {
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
+  /* стили для кнопок "вперед" и "назад" */
+  .educas-nsution {
+  position: absolute;
+  top: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  height: 50px;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  }
+
+  .educas-nsution_show {
+  display: flex;
+  }
+
+  .educas-nsution:hover,
+  .educas-nsution:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+  }
+
+  .educas-nsution_prev {
+  left: 0;
+  }
+
+  .educas-nsution_next {
+  right: 0;
+  }
+
+  .educas-nsution::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  }
+
+  .educas-nsution_prev::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .educas-nsution_next::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+  /* стили для индикаторов */
+  .coevened-ucadional {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+  .coevened-ucadional li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 4px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.77);
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  }
+
+  .coevened-ucadional li.kunovenas {
+  background-color: #fff;
+  }
+
+  .img-naminks {
+  display: inline-block;
+  height: 30%;
+  width: 100%;
+  object-fit:contain;
+  position: relative;
+  /* max-height: 80%;
+  margin-left: 5%; */
+  }
+
+
