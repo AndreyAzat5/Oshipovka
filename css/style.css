@@ -132,10 +132,10 @@
   margin-left: 5%; */
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     .img-naminks{
-      height: 50%;
-      position: relative;
+      height: 60%;
+      
     }
   }
 
