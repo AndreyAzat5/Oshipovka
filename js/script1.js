@@ -202,3 +202,31 @@
   slideShow('.pedenus-slaidera', {
   isAutoplay: true
   });
+
+
+  /////////////////////////////////////////////////////////////////////////////////
+
+
+
+  window.onload = look("link1"),look("link1"),look("link2"),look("link3"),look("link4"),look("link5"),look("link6"),izmeVid('redblock1'),izmVidMin('redMin1');
+
+
+      function look(elemId) {
+        var elems = document.getElementById(elemId);
+        if (elems.style.display === "none") {elems.style.display = "block"
+          } else {elems.style.display = "none"}
+      }
+
+
+
+  function izmeVid(elemID){
+      var elem = document.getElementById(elemID);
+        elem.style.visibility === "hidden" ?
+          elem.style.visibility = "visible" : elem.style.visibility = "hidden";
+      }
+      
+function izmVidMin(elemID){
+      var elem = document.getElementById(elemID);
+        elem.style.visibility === "visible" ?
+          elem.style.visibility = "hidden" : elem.style.visibility = "visible";
+      }

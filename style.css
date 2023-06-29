@@ -280,7 +280,7 @@ margin-right: auto;
   margin:10px;
   padding: 10px;
   word-wrap:normal;
-  min-width: 280px;
+  min-width: 300px;
   /* background-color: #ff6000; */
   }
 
@@ -415,6 +415,10 @@ margin-right: auto;
     /* margin-top: 0px; */
     margin-bottom: 15px;
   }
+
+#link1 .opisanie{
+  display: block;
+}
 
   @keyframes showBlock {
     0% {

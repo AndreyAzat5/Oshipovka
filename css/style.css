@@ -132,4 +132,11 @@
   margin-left: 5%; */
   }
 
+  @media (max-width: 500px) {
+    .img-naminks{
+      height: 50%;
+      position: relative;
+    }
+  }
+
 
