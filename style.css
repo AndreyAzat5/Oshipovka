@@ -391,9 +391,21 @@ margin-right: auto;
 .fotki{
   margin-bottom: 30px;
   background-color: #3f3f3f;
-  position: relative;
+  
+  /* width: 100%; */
+  padding: 50px;
+
+  
 }
 
+.galerei{
+  width: 10px;
+  /* object-fit:contain; */
+  object-fit: cover;
+  height: 60vh;
+  border: solid white 1px;
+  border-radius: 10px;
+}
 
 .blokopisan{
   display: inline-block;
