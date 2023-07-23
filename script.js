@@ -30,3 +30,22 @@ function closeOnClick() {
   hamb.classList.remove("active");
   body.classList.remove("noscroll");
 }
+
+// код для скрытия суб меню при скролинге
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+    if (window.innerWidth > 1000) {
+    if ($(window).scrollTop()>60) 
+    {
+        $(".menusha").show();
+        
+    }
+    else
+    {
+        $(".menusha").hide();
+        
+    }
+    
+     }});
+  });

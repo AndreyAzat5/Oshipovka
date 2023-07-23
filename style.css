@@ -47,11 +47,61 @@ body {
   flex: 0 0 auto;
   background: url(shini.jpg);
   width: 100%;
+  
   /* position: absolute; */
   /* margin-top: 920px;
   height: 250px; */
 }
 
+.noheader2{
+  flex: 0 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 255, 255, 0.4) ), url(photos.jpg);
+  width: 100%;
+  max-height: 100%;
+  /* filter: brightness(60%); */
+  /* background-color:rgba(0, 0, 0, .5); */
+  background-position: center center;
+  /* определяет размер изображения на странице */
+  background-size:cover;
+  /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+  background-repeat: no-repeat;
+  /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+  вместе с остальной частью страницы или будет фиксированным */
+  /* background-attachment: fixed; */
+  /* text-shadow: -0   -1px 1px #000000,
+  0   -1px 1px #000000,
+ -0    1px 1px #000000,
+  0    1px 1px #000000,
+ -1px -0   1px #000000,
+  1px -0   1px #000000,
+ -1px  0   1px #000000,
+  1px  0   1px #000000,
+ -1px -1px 1px #000000,
+  1px -1px 1px #000000,
+ -1px  1px 1px #000000,
+  1px  1px 1px #000000,
+ -1px -1px 1px #000000,
+  1px -1px 1px #000000,
+ -1px  1px 1px #000000,
+  1px  1px 1px #000000;; */
+
+  text-shadow: 1px 1px 3px black;
+}
+
+.noheader2 h1{
+  font-size: 50px;
+  color: #ffffff;
+  /* margin-bottom: -20px; */
+  /* font-weight: bolder; */
+}
+
+.noheader2 h2{
+  color: #faf7f7;
+  /* filter: brightness(100%); */
+  margin-bottom: -20px;
+  margin-top: -20px;
+  /* font-weight: bolder; */
+}
 /* .header h1 {
   text-align: center;
   color: #fff;
@@ -700,7 +750,7 @@ p {
 #glaw{
   /* color: rgb(255, 47, 47); */
   text-shadow: 
-  -0   -1px 0   #F76767,
+  /* -0   -1px 0   #F76767,
   0   -1px 0   #F76767,
  -0    1px 0   #F76767,
   0    1px 0   #F76767,
@@ -715,7 +765,24 @@ p {
  -1px -1px 0   #F76767,
   1px -1px 0   #F76767,
  -1px  1px 0   #F76767,
-  1px  1px 0   #F76767;
+  1px  1px 0   #F76767; */
+
+  -0   -1px 1px #F76767,
+		 0   -1px 1px #F76767,
+		-0    1px 1px #F76767,
+		 0    1px 1px #F76767,
+		-1px -0   1px #F76767,
+		 1px -0   1px #F76767,
+		-1px  0   1px #F76767,
+		 1px  0   1px #F76767,
+		-1px -1px 1px #F76767,
+		 1px -1px 1px #F76767,
+		-1px  1px 1px #F76767,
+		 1px  1px 1px #F76767,
+		-1px -1px 1px #F76767,
+		 1px -1px 1px #F76767,
+		-1px  1px 1px #F76767,
+		 1px  1px 1px #F76767;
 }
 
 .navbar {
@@ -817,6 +884,27 @@ p {
  .header{
   display: none;
  }
+  .noheader2{
+  margin-top: 8%;
+ padding:20px 15px 20px 15px;
+}
+
+.noheader2 h1{
+  font-size: 35px;
+}
+
+.noheader2 h2{
+  font-size: 25px;
+}
+
+.pagesik{
+ width: 100%; 
+}
+
+.numberus{
+  /* width: 100%; */
+
+}
 
  .menusha{
   visibility: hidden;
