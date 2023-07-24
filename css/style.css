@@ -12,7 +12,7 @@
   margin-right: auto;
   /* background-color: gray;
   margin-bottom: 10px; */
-  
+  display: none;
   }
 
   /* стили для обёртки, в которой заключены слайды */
@@ -136,6 +136,10 @@
     .img-naminks{
       height: 60%;
       
+    }
+
+    .pedenus-slaidera {
+      display: block;
     }
   }
 
