@@ -17,7 +17,7 @@ function renderPopup() {
   popup.appendChild(menu);
 }
 
-// Код для закрытия меню при нажатии на ссылку
+/////////////////////////////////////////////////////////// Код для закрытия меню при нажатии на ссылку
 
 const links = Array.from(menu.children);
 
@@ -31,7 +31,7 @@ function closeOnClick() {
   body.classList.remove("noscroll");
 }
 
-// код для скрытия суб меню при скролинге
+//////////////////////////////////////////////////// код для скрытия суб меню при скролинге
 
 $(document).ready(function(){
 	$(window).scroll(function(){
@@ -51,7 +51,7 @@ $(document).ready(function(){
   });
 
 
-  //Код слайдера 
+  ///////////////////////////////////////////////////////////////Код слайдера 
   window.addEventListener("load", () => {
     var carousels = document.querySelectorAll(".carousel-3d");
     for (var i = 0; i < carousels.length; i++) {
