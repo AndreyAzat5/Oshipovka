@@ -55,7 +55,7 @@ body {
 
 .noheader2{
   flex: 0 0 auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 255, 255, 0.4) ), url(photos.jpg);
+  background: /*linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 255, 255, 0.4) ),*/ url(remonthsin_photo/shini-2.jpg);
   width: 100%;
   max-height: 100%;
   /* filter: brightness(60%); */
@@ -290,14 +290,14 @@ padding: 10px;
 
 .preimblock div{
   margin-left: 45px;
-  
+  margin-top: 45px;
 }
 
 .preimblock img{
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   float: left;
-  
+  margin-right: 5px;
 }
 
 .preimblock1{
@@ -333,13 +333,15 @@ margin-right: auto;
 
 .newshin{
   /* max-width: 300px; */
-  width: 35%;
+  /* width: 35%; */
+  width: 70%;
   flex-wrap: wrap;
   margin:10px;
   padding: 10px;
   word-wrap:normal;
   min-width: 300px;
   /* background-color: #ff6000; */
+  text-indent: 15px;
   }
 
 .newshin li{
@@ -368,25 +370,17 @@ margin-right: auto;
       display:flex;
       flex-flow: row wrap;
       
-  align-content:center;
-  justify-content:center;
+  /* align-content:center;
+  justify-content:center; */
   }
 
   .primer img{
     width: 250px;
+    margin-top: 3vh;
   }
 
 
-.preimblock div{
-  margin-left: 45px;
-}
 
-.preimblock img{
-  width: 40px;
-  height: 40px;
-  float: left;
-  
-}
 
 .fotki{
   margin-bottom: 30px;
