@@ -281,10 +281,11 @@ margin-bottom: 20px;
 }
 
 .preimblock{
-width: 300px;
+width: 400px;
 flex-wrap: wrap;
 margin:10px;
 padding: 10px;
+box-shadow: 10px 5px 5px rgb(108, 101, 101);
 /* background-color: #ff6000; */
 }
 
@@ -344,6 +345,10 @@ margin-right: auto;
   text-indent: 15px;
   }
 
+#n{
+  width: 100%;
+}
+
 .newshin li{
   margin-bottom: 2px;
 }
@@ -393,7 +398,7 @@ margin-right: auto;
 }
 
 .galerei{
-  width: 10px;
+  /* width: 1000px; */
   /* object-fit:contain; */
   object-fit: cover;
   height: 60vh;
@@ -1131,7 +1136,7 @@ height: 32px;
 }
 .carousel-3d figure {
   margin: 0;
-  width: 50%;
+  width: 80%;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: -webkit-transform 0.5s;
