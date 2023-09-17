@@ -230,3 +230,11 @@ function izmVidMin(elemID){
         elem.style.visibility === "visible" ?
           elem.style.visibility = "hidden" : elem.style.visibility = "visible";
       }
+
+      
+      function rem(elemId) {
+        var elems = document.getElementById(elemId);
+        var elemmso = document.getElementById('#two');
+        if (elems.style.display === "none") {elems.style.display = "block"
+          } else {elems.style.width = 100 + "%"; elemmso.style.display = "none"}
+      }

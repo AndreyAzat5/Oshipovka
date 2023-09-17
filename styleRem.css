@@ -28,6 +28,14 @@ body {
   padding: 0 15px;
 }
 
+#container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 15px;
+}
+
 .header {
   flex: 0 0 auto;
   background-color: #212429;
@@ -113,6 +121,7 @@ body {
 .main {
   /* background-color: #fafafa; */
   background-color: #fff;
+  /* background-color: red; */
   flex: 1 0 auto;
 }
 
