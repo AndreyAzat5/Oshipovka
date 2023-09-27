@@ -1234,7 +1234,9 @@ height: 32px;
 
 @media (max-width: 900px) {
 
-
+.primer img{
+  width: 290px;
+}
   .galerei{
     height: 30vh;
     /* width: 70vw; */
